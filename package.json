@@ -1,0 +1,23 @@
+{
+  "name": "keyboardevents",
+  "version": "1.0.0",
+  "description": "KeyboardEvent is a simple and easy-to-use web application that helps you ease your JavaScript complications by helping you access the Javascript keyboard event's DOM attribute values such as code, key & keyCode and more.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass src/sass:src/css/ --source-map",
+    "watch:sass": "sass src/sass:src/css/ --source-map --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunillshastry/keyboardevents-new.git"
+  },
+  "author": "Sunil Shastry",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/sunillshastry/keyboardevents-new/issues"
+  },
+  "homepage": "https://github.com/sunillshastry/keyboardevents-new#readme",
+  "devDependencies": {
+    "sass": "^1.36.0"
+  }
+}

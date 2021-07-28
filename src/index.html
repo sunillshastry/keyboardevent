@@ -87,6 +87,13 @@
     <meta name="theme-color" content="#ffffff" />
 
     <title>KeyboardEvent</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <main class="main__content">
@@ -96,51 +103,73 @@
       </section>
 
       <section class="main__empty--container">
-        <h3 class="main__empty">Enter a value</h3>
+        <h3 class="main__empty">Press a key to get its attributes...</h3>
       </section>
 
       <!-- Attribute boxes for an event -->
       <!-- REQUIRED KEY ATTRIBUTES ↓ -->
       <!-- altKey, charCode, code, ctrlKey, key, keyCode, shiftKey -->
       <section class="main__box--container">
-        <div class="main__box">
+        <div class="main__box" title="Click to copy">
           <h3 class="main__box--name">event.charCode</h3>
           <h3 class="main__box--value">69</h3>
         </div>
 
-        <div class="main__box">
+        <div class="main__box" title="Click to copy">
           <h3 class="main__box--name">event.code</h3>
           <h3 class="main__box--value">69</h3>
         </div>
 
-        <div class="main__box">
+        <div class="main__box" title="Click to copy">
           <h3 class="main__box--name">event.key</h3>
           <h3 class="main__box--value">69</h3>
         </div>
 
-        <div class="main__box">
+        <div class="main__box" title="Click to copy">
           <h3 class="main__box--name">event.keyCode</h3>
           <h3 class="main__box--value">69</h3>
         </div>
 
-        <div class="main__box">
+        <div class="main__box" title="Click to copy">
           <h3 class="main__box--name">event.ctrlKey</h3>
           <h3 class="main__box--value">69</h3>
         </div>
 
-        <div class="main__box">
+        <div class="main__box" title="Click to copy">
           <h3 class="main__box--name">event.shiftKey</h3>
           <h3 class="main__box--value">69</h3>
         </div>
 
-        <div class="main__box">
+        <div class="main__box" title="Click to copy">
           <h3 class="main__box--name">event.altKey</h3>
           <h3 class="main__box--value">69</h3>
         </div>
       </section>
 
       <!-- Link to the author's social and project's GitHub repo -->
-      <section class="main__social--container"></section>
+      <section class="main__social--container">
+        <a
+          class="main__social"
+          title="GitHub"
+          target="_blank"
+          href="https://github.com/sunillshastry/keyboardevent"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          title="Twitter"
+          class="main__social"
+          target="_blank"
+          href="https://twitter.com/sunillshastry/"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a
+          title="Instagram"
+          class="main__social"
+          target="_blank"
+          href="https://www.instagram.com/sunillshastry/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </section>
     </main>
   </body>
 </html>
