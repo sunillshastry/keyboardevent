@@ -1,0 +1,2 @@
+The public folder is created to store the content for production/hosting purpose.
+The directory is currently empty and includes the index.txt file only, just to convey the message.
