@@ -8,10 +8,10 @@ const eventCtrlKey = document.getElementById("ctrl-key");
 const eventShiftKey = document.getElementById("shift-key");
 const eventAltKey = document.getElementById("alt-key");
 const actionInformationContainer = document.querySelector(
-  ".action__information",
+  ".action__information"
 );
 const actionInformationValue = document.querySelector(
-  ".action__information--value",
+  ".action__information--value"
 );
 const eventBoxes = document.querySelectorAll(".main__box");
 
