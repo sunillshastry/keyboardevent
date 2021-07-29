@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass src/sass:src/css/ --source-map",
-    "watch:sass": "sass src/sass:src/css/ --source-map --watch"
+    "watch:sass": "sass src/sass:src/css/ --source-map --watch",
+    "start:server": "live-server src/index.html"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/sunillshastry/keyboardevents-new#readme",
   "devDependencies": {
+    "live-server": "^1.2.1",
     "sass": "^1.36.0"
   }
 }

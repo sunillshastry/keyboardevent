@@ -1,0 +1,42 @@
+.main__header {
+  font-family: $sacramento;
+  font-size: 8rem;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 1rem 0;
+  text-shadow: 2px 2px 1px rgba($color-black, 1);
+}
+.main__empty {
+  justify-self: center;
+  font-size: 5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.main__social {
+  color: $color-white;
+  margin-left: 0.4rem;
+  margin-right: 0.6rem;
+  font-size: 1.8rem;
+  transition: all 0.2s ease;
+  &:hover {
+    color: $color-orange-light;
+  }
+}
+
+.action__information {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: $color-white;
+  color: $color-orange;
+  padding: 1rem 1.2rem;
+  font-size: 1.5rem;
+  font-style: oblique;
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}

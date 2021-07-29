@@ -51,3 +51,27 @@ eventBoxes.forEach(function (eventBox) {
     actionInformationValue.textContent = eventDetails[eventBoxValue];
   });
 });
+
+eventBoxes.forEach(function (eventBox) {
+  eventBox.addEventListener("click", function () {
+    const copyValue = this.children[1].textContent;
+    copyToClipboard(copyValue);
+    document
+      .querySelector(".copied__notification")
+      .classList.add("copy-notification-show");
+    setTimeout(() => {
+      document
+        .querySelector(".copied__notification")
+        .classList.remove("copy-notification-show");
+    }, 1000);
+  });
+});
+
+function copyToClipboard(copyValue) {
+  var textarea = document.createElement("textarea");
+  textarea.value = copyValue;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  textarea.remove();
+}
