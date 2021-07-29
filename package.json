@@ -5,6 +5,7 @@
   "main": "index.js",
   "browserslist": "last 15 versions",
   "scripts": {
+    "start": "live-server src/",
     "start:server": "live-server src/index.html",
     "compile:sass": "sass src/sass:src/css/ --source-map",
     "watch:sass": "sass src/sass:src/css/ --source-map --watch",
@@ -17,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sunillshastry/keyboardevents-new.git"
+    "url": "git+https://github.com/sunillshastry/keyboardevent.git"
   },
   "author": "Sunil Shastry",
   "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/sunillshastry/keyboardevents-new/issues"
+    "url": "https://github.com/sunillshastry/keyboardevent/issues"
   },
-  "homepage": "https://github.com/sunillshastry/keyboardevents-new#readme",
+  "homepage": "https://github.com/sunillshastry/keyboardevent#readme",
   "devDependencies": {
     "autoprefixer": "^10.3.1",
     "live-server": "^1.2.1",
