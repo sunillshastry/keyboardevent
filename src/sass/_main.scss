@@ -19,6 +19,7 @@
 .main__empty--container {
   @include absolute-center;
   transition: all 0.4s ease;
+  width: 90%;
 }
 
 .main__box--container {
@@ -106,23 +107,6 @@
   background-color: $color-maroon;
   padding: 1rem;
   border-bottom-left-radius: 4px;
-}
-
-.copied__notification {
-  transition: all 0.25s ease;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -100%);
-  background-color: $color-maroon;
-  padding: 0.55rem 0.75rem;
-  font-size: 1.35rem;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  span {
-    display: inline-block;
-    margin-left: 3px;
-  }
 }
 
 .copy-notification-show {

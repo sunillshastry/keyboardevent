@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  background-color: $color-maroon;
+  color: $color-white;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
