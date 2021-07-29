@@ -26,7 +26,7 @@ _KeyboardEvent is a simple and easy-to-use web application that helps you ease y
 
 Fork the project or clone/download the project using the `Code` button up top. To contribute or to raise an issue, please do so in the respective tabs, i.e, use the `Issues` tab to raise an issue in the project and the `Pull Request` tab to request for a merge/change.
 
-```
+```bash
 git clone https://github.com/sunillshastry/keyboardevent.git
 ```
 
