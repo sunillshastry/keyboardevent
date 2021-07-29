@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "KeyboardEvent is a simple and easy-to-use web application that helps you ease your JavaScript complications by helping you access the Javascript keyboard event's DOM attribute values such as code, key & keyCode and more.",
   "main": "index.js",
+  "browserslist": "last 15 versions",
   "scripts": {
+    "start:server": "live-server src/index.html",
     "compile:sass": "sass src/sass:src/css/ --source-map",
     "watch:sass": "sass src/sass:src/css/ --source-map --watch",
-    "start:server": "live-server src/index.html"
+    "target:css": "sass src/sass:public/css --source-map",
+    "prefix:css": "postcss public/css/style.css --use autoprefixer -o public/css/style.prefix.css",
+    "minify:css": "minify public/css/style.prefix.css > public/css/style.min.css",
+    "build:css": "npm-run-all target:css prefix:css minify:css",
+    "minify:html": "minify src/index.html > public/index.html",
+    "minify:js": "minify public/js/script.js > public/js/script.min.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +26,12 @@
   },
   "homepage": "https://github.com/sunillshastry/keyboardevents-new#readme",
   "devDependencies": {
+    "autoprefixer": "^10.3.1",
     "live-server": "^1.2.1",
+    "minify": "^7.0.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
     "sass": "^1.36.0"
   }
 }
